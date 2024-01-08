@@ -28,12 +28,14 @@ class Stack {
   }
 }
 
-let stack = new Stack();
-console.log(("The stack is empty?", stack.isEmpty()));
-stack.push(45);
-stack.push(41);
-stack.push(12);
-stack.pop();
-stack.printStack();
-console.log("Ths top element is ", stack.top());
-console.log("This stack is empty ", stack.isEmpty());
+// let stack = new Stack();
+// console.log(("The stack is empty?", stack.isEmpty()));
+// stack.push(45);
+// stack.push(41);
+// stack.push(12);
+// stack.pop();
+// stack.printStack();
+// console.log("Ths top element is ", stack.top());
+// console.log("This stack is empty ", stack.isEmpty());
+
+module.exports = Stack;
