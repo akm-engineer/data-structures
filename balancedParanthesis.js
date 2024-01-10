@@ -25,6 +25,8 @@ console.log(string3, balancedParathesis(string3));
 console.log(string4, balancedParathesis(string4));
 
 //Time complexity is linear as we r going over evry ch
+// Time-O(n)
+// Space-O(n)
 /*
 The function iterates through each character of the input string.
 If the character is an opening parenthesis (, it is pushed onto the stack.
